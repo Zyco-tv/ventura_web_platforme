@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: #1d1f20;
+  background-color: #202020;
   color: white;
 }
 
@@ -308,9 +308,17 @@ a:active {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-shadow: black 0px 0px 10px;
-          box-shadow: black 0px 0px 10px;
+          
   left: 65%;
 }
+
+.main__part .server__info .fivem__info:hover{
+  box-shadow: #6000FF 3px 3px 10px;
+}
+.main__part .server__info .fivem__info1:hover{
+  box-shadow: #6000FF  3px 3px 10px;
+}
+
 
 .main__part .server__info .fivem__info p {
   padding: 20px;
@@ -502,7 +510,7 @@ a:active {
   position: relative;
   height: auto;
   width: 100%;
-  background-color: #1d1f20;
+  background-color: #202020;
   text-align: center;
 }
 
@@ -582,7 +590,7 @@ footer p {
           transform: translate(-50%, 1850%);
   height: 2px;
   width: 80px;
-  background-color: #4B007C;
+  background-color: #6000FF ;
 }
 
 #regulamin {
