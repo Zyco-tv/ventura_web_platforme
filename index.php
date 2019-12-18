@@ -12,6 +12,7 @@
     <meta property="og:description" content="Rejoignez dés maintenant notre communauté hors du commun !"
     <link rel="Shortcut icon" href="http://wiki.ventura-roleplay.fr/resources/assets/wiki.png"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -170,6 +171,16 @@
     </div>
 </div>
 <header>
+  
+  <div class="snow snow--near"></div>
+  <div class="snow snow--near snow--alt"></div>
+  
+  <div class="snow snow--mid"></div>
+  <div class="snow snow--mid snow--alt"></div>
+  
+  <div class="snow snow--far"></div>
+
+
 <div class="page__introduction">
     <nav>
         <ul class="navigation__desktop">
@@ -313,6 +324,7 @@
     </div>
 </footer>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
   <script>
     AOS.init();
   </script>

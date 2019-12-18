@@ -20,7 +20,7 @@
         <i class="fas fa-user"></i>
         <input type="text" name="username" id="username" class="form-field" pattern="^[a-zA-Z0-9_-]{1,16}$" placeholder=" " required>
         <label for="username">Social Club</label>
-    </div>
+    </div>  
     <div class="form-field">
         <i class="fas fa-user"></i>
         <input type="text" name="username" id="username" class="form-field" pattern="^[a-zA-Z0-9_-]{1,16}$" placeholder=" " required>
