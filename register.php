@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="tailwind.css">
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/register.css">
     <title>Ventura - register</title>
 </head>
 <body>
@@ -33,6 +33,7 @@
     </div>
   <button type="submit" value="Login" class="btn">Register</button>
 </form>
+
 <form class="login-form" action="javascript:void(0);">
 <h1>Login</h1>
 <div class="form-field">

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ventura</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="author" content="Spirit_TV">
     <meta name="keywords" content="rp, fr, roleplay, role-play, role, play, serveur, serieux, whitliste, altv, fivem, ragmp">
     <meta property="og:title" content="Ventura - Serveur GTA V rôleplay sous ALTV ">
