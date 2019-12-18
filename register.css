@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Lato, sans-serif;
+  background: url("https://i.pinimg.com/originals/2f/f8/4b/2ff84b840561cd54b8eae116159c922b.jpg") 0/cover fixed;
+}
+
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  -webkit-box-shadow: #6000FF 3px 3px 10px;
+          box-shadow: #6000FF 3px 3px 10px;
+}
+
+.login-form h1 {
+  margin-bottom: 0.3em;
+  padding: 12px 0;
+  font-size: 2.5em;
+}
+
+.login-form .form-field {
+  position: relative;
+  margin: 20px 0 8px 0;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.login-form .form-field::after {
+  position: absolute;
+  content: "";
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #6000FF;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.login-form .form-field:focus-within::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.login-form .form-field input {
+  padding-left: 10px;
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.login-form .form-field input:focus ~ label,
+.login-form .form-field input:not(:placeholder-shown) ~ label {
+  -webkit-transform: translateY(-24px) scale(0.75);
+          transform: translateY(-24px) scale(0.75);
+}
+
+.login-form .form-field input:valid ~ label {
+  color: #6000FF;
+}
+
+.login-form .form-field input:invalid ~ label {
+  color: white;
+}
+
+.login-form .form-field label {
+  position: absolute;
+  left: 32px;
+  top: 24px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.login-form .btn {
+  position: relative;
+  width: 100%;
+  padding: 6px 0;
+  margin: 36px 0 18px 0;
+  font-size: 1.2em;
+  color: white;
+  background: transparent;
+  border: 2px solid #6000FF;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.login-form .btn::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, #6000FF, transparent);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.login-form .btn:hover {
+  -webkit-box-shadow: 0 0 20px 10px rgba(51, 152, 219, 0.5);
+          box-shadow: 0 0 20px 10px rgba(51, 152, 219, 0.5);
+}
+
+.login-form .btn:hover::before {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+/*# sourceMappingURL=register.css.map */
